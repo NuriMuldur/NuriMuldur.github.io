@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<meta charset = "utf-8"/>
+		
+		<title>CSS Arkaplanlar </title>
+		
+		<link rel = "stylesheet" href = "main.css" />
+		
+	</head>
+	
+	
+	
+	
+	
+	<body>
+		
+		<div id ="logo">   </div>
+			<ul>
+			<li><a href="Anasayfa.html">Anasayfa</a></li>
+			<li class="dropdown">
+				<a href="javascript:void(0)" class="dropbtn">Css Konuları</a>
+				<div class="dropdown-content">
+					<a href="yazilar.html">Yazılar ve Yazı Tipleri</a>
+					<a href="arkaplanlar.html">Arkaplanlar</a>
+					<a href="baglantilar.html">Bağlantılar</a>
+				</div>
+			</li>
+			<li><a href="hakkimda.html">Hakkımda</a></li>
+			<li><a href="iletisim.html">İletişim</a></li>
+			</ul>
+			<div class="back"><img src="back.jpg"></div>
+			<br/><br/>
+			<h2>CSS ARKAPLANLAR</h2>
+			<div class ="bilgi">
+			Bu sayfada HTML sayfanızın ya da sayfanızda bir bölümün arkaplan rengini, resmini ve özelliklerini<br/>
+			nasıl belirleyeceğiniz ile ilgili bilgiler bulunmaktadır.</div>
+			<h4>background-color: Arkaplan Rengi</h4>
+			<div class ="bilgi">
+			Bir elementin arkaplan rengini belirlememizi sağlar.<br/><br/>
+			<strong>div { background-color: #EFEFEF; }</strong> </div>
+			<h4>background-image: Arkaplan Resmi</h4>
+			<div class ="bilgi">
+			Bir element içinde arkaplan resmi kullanmamızı sağlar.<br/><br/>
+			<strong>body { background-image: url('resim.jpg'); }</strong><br/><br/>
+			Yukarıdaki gibi url('') yazılarak arasında resmin adı veya yolu yazılır. Örnekte resmin adı resim.jpg olarak gösterilmiştir.</div>
+			<h4>background-attachment: Arkaplan Sabitliği</h4>
+			<div class ="bilgi">
+			Bu kod kullandığımız arkaplanın sabit kalıp kalmayacağı hakkında ayar yapmamızı sağlar. Eğer özellik değerinin sabit kalmasını (yani sayfanın yerine göre değişmemesini) 
+			istiyorsak fixed özelliği kullanırız.<br/><br/>
+			<strong>body {<br/><br/>
+
+			background-image: url('resim.jpg');<br/><br/>
+
+			background-attachment: fixed;}</strong> </div>
+			<h4>background-position: Resmin Nereye Hizalanacağı</h4>
+			<div class ="bilgi">
+			Eğer background-repeat özelliğini no-repeat olarak belirlediysek bu kod yardımıyla onun hizalanma şeklini belirleme şansına sahip oluruz.
+			<br/><br/>
+			<strong>body {<br/><br/>
+
+			background-image: url('resim.jpg');<br/><br/>
+
+			background-repeat: no-repeat;<br/><br/>
+			background-position: right top; } </strong><br/><br/>
+			Yukarıda yer alan kod arkaplan resminin right (sağ) ve top (üst) tarafa doğru hizalanacağını bildirir.</div>
+			
+			
+			
+			
+
+	<div class="footer">
+		<p> Tüm Hakları Saklıdır. Lütfen Kaynak Göstermeden Sitenizde Kullanmayınız. © 2017 - Nuri MÜLDÜR</p>
+	</body>
+	
+
+
+
+
+
+
+</html> 

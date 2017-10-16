@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<meta charset = "utf-8"/>
+		
+		<title>CSS Bağlantılar </title>
+		
+		<link rel = "stylesheet" href = "main.css" />
+		
+	</head>
+	
+	
+	
+	
+	
+	<body>
+		
+		<div id ="logo">   </div>
+			<ul>
+			<li><a href="Anasayfa.html">Anasayfa</a></li>
+			<li class="dropdown">
+				<a href="javascript:void(0)" class="dropbtn">Css Konuları</a>
+				<div class="dropdown-content">
+					<a href="yazilar.html">Yazılar ve Yazı Tipleri</a>
+					<a href="arkaplanlar.html">Arkaplanlar</a>
+					<a href="baglantilar.html">Bağlantılar</a>
+				</div>
+			</li>
+			<li><a href="hakkimda.html">Hakkımda</a></li>
+			<li><a href="iletisim.html">İletişim</a></li>
+			</ul>
+			
+			<div class="baglanti"><img src="baglanti.jpg"></div>
+			<h2>CSS BAĞLANTILAR</h2>
+			<div class="bilgi">
+			Sitenizdeki bağlantıları CSS kullanarak şekillendirmek için bazı özel eklerden faydalanılır.</div>
+			<div class="bilgi">
+			&emsp;  <strong>a:link</strong> - Normal link görünüşü<br/>
+			&emsp;  <strong>a:visited</strong> - Ziyaret edilmiş siteye giden link görünümü<br/>
+			&emsp;  <strong>a:hover</strong> - Fare ile üzerine gelindiğindeki görünüş<br/>
+			&emsp;  <strong>a:active</strong> - Tıklanılan andaki görüntüsü<br/><br/>
+			Yukarıdaki tüm süreçler için biçimlendirme yapmamız mümkün:<br/><br/>
+			
+			&emsp;	<strong>a:link {color:#FF0000;}      /* ziyaret edilmemiş */</strong><br/>
+			&emsp;	<strong>a:visited {color:#00FF00;}  /* ziyaret edilmiş */</strong><br/>
+			&emsp;	<strong>a:hover {color:#FF00FF;}  /* fare üzerindeyken */</strong><br/>
+			&emsp;	<strong>a:active {color:#0000FF;}  /* aktifken */</strong><br/><br/>
+			Yukarıdaki bağlantı biçimlerini sıralarken uymamız gereken bir sıra vardır. Bu sıraya uyulmazsa bağlantı görünümleri doğru çalışmayabilir<br/><br/>
+			&emsp;		<strong>a:hover her zaman a:link ve a:visited den SONRA gelmeli.</strong><br/>
+			&emsp;		<strong>a:active her zaman a:hover dan SONRA gelmeli.</strong><br/>
+			
+			
+			
+			
+
+	<div class="footer">
+		<p> Tüm Hakları Saklıdır. Lütfen Kaynak Göstermeden Sitenizde Kullanmayınız. © 2017 - Nuri MÜLDÜR</p>
+	</body>
+	
+
+
+
+
+
+
+</html> 

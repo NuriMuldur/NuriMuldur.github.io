@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<meta charset = "utf-8"/>
+		
+		<title>CSS Yazılar ve Yazı Tipleri </title>
+		
+		<link rel = "stylesheet" href = "main.css" />
+		
+	</head>
+	
+	
+	
+	
+	
+	<body>
+		
+		<div id ="logo">   </div>
+			<ul>
+			<li><a href="Anasayfa.html">Anasayfa</a></li>
+			<li class="dropdown">
+				<a href="javascript:void(0)" class="dropbtn">Css Konuları</a>
+				<div class="dropdown-content">
+					<a href="yazilar.html">Yazılar ve Yazı Tipleri</a>
+					<a href="arkaplanlar.html">Arkaplanlar</a>
+					<a href="baglantilar.html">Bağlantılar</a>
+				</div>
+			</li>
+			<li><a href="hakkimda.html">Hakkımda</a></li>
+			<li><a href="iletisim.html">İletişim</a></li>
+			</ul>
+			
+			<h2>CSS YAZILAR ve YAZI TİPLERİ</h2>	
+			<div class ="bilgi">
+			Bu sayfada HTML sayfanızda kullandığınız yazıların değiştirebileceğiniz belli başlı özellikleri (renk, hiza, kalın, yazı tipi vb) hakkında bilgi verilecektir.
+			</div>
+			<h4>color:Yazı Rengi</h4>
+			<div class ="bilgi">
+			Yazının rengini belirlemenizi sağlar. <br/><br/>
+			<strong>p { color:blue; }</strong> </div>
+			<div class="yazi"><img src="yazi.jpg"></div>
+			<h4>text-align: Hizalama</h4>
+			<div class ="bilgi">
+			Yazının yatay yönde ne şekilde hizalanacağını belirtmenizi sağlar. En çok kullanılan dört hizalama yöntemi:<br/><br/>
+			<strong>1.left:sol <br/> 2.right:sağ <br/> 3.center:ortala <br/> 4.justify:iki yana yasla</strong><br/><br/>Aşağıda paragrafların iki yana yaslanacağını belirttik:
+			<br/><strong>p { text-align: justify; }</strong> </div>
+			<h4>font-family: Yazı Tipi Belirlemek</h4>
+			<img src="sansfont.png">
+			<div class ="bilgi">
+			Yazı tipleri klasörümüzü açtığımızda birçok yazı tipi görürüz. Bunları HTML sayfamızda kullanmak için adını belirtmemiz gerekir.<br/>
+			İşte bu kod yazı tipi seçmemizde bize yardımcı olacaktır.
+			<br/><br/><strong>h1 { font-family: Times New Roman; }<br/><br/>
+
+			p { font-family: Times New Roman, Arial, Helvatica; }
+			<br/><br/>
+			a { font-family: Sans-serif; }</strong> <br/><br/>
+			Yukarıdaki birinci örnekte sadece tek yazı tipi adı belirttik (Times New Roman), ancak bir sonrakinde aralarına <br/>
+			virgül koyarak daha fazla belirttik. Bu tarz kullanımlarda öncelikle dikkate alınan ilk verdiğimiz yazı tipi olacaktır. <br/>
+			Eğer verdiğimiz yazı tipi o kullanıcıda yoksa bir sonraki ile görüntülenecektir			</div>
+			<h4>font-size: Yazının Büyüklüğü (Puntosu)</h4>
+			<div class ="bilgi">
+			Yazı büyüklüğünü font-size ile belirtiriz.Ölçü birimleri olarak punto(pt),piksel(px) vb kullanabiliriz.<br/>
+			Örneğin yazımızın 12 punto olması için yazmamız gereken komut:<br/><br/>
+			<strong> h2 { font-size: 12pt; }</strong><br/><br/>
+			 14 piksellik bir büyüklüğe sahip olmasını istiyorsak gereken komut:<br/><br/>
+			 <strong> h2 { font-size: 14px; }</strong>
+			</div>
+			<h4>font-style: İtalik (Sağa Yatık) Yazmak</h4>
+			<div class ="bilgi">
+			Yazımızın sağa yatık (italic) olması için aşağıdaki kodu kullanabiliriz.<br/><br/>
+			<strong> h2 { font-style: italic; }</strong>
+			</div>
+			<h4>font-weight: Kalın Yazmak</h4>
+			<div class ="bilgi">
+			Yazımızın kalın (bold) olmasını istiyorsak aşağıdaki kodu kullanmalıyız.<br/><br/>
+			<strong>h2 { font-weight: bold; }</strong>
+			</div>
+			
+			
+			
+
+	<div class="footer">
+		<p> Tüm Hakları Saklıdır. Lütfen Kaynak Göstermeden Sitenizde Kullanmayınız. © 2017 - Nuri MÜLDÜR</p>
+	</body>
+	
+
+
+
+
+
+
+</html> 
