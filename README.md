@@ -1,1 +1,0 @@
-# NuriMuldur.github.io
